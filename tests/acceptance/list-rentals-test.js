@@ -33,7 +33,7 @@ test('should filter the list of rentals by city.', function (assert) {
   keyEvent('.list-filter input', 'keyup', 69);
   andThen(function () {
     assert.equal(this.$('.listing').length, 1, "should show 1 listing");
-    assert.equal(this.$(".listing .location:contains('Seattle')").length, 1, "should contain 1 listing with location Seattle");
+	assert.equal(this.$(".listing .location:contains('Seattle')").length, 1, "should contain 1 listing with location Seattle");
   });
 });
 

@@ -1,4 +1,5 @@
 import { test } from 'qunit';
+
 import moduleForAcceptance from 'super-rentals/tests/helpers/module-for-acceptance';
 
 moduleForAcceptance('Acceptance | list rentals');
@@ -37,14 +38,12 @@ test('should filter the list of rentals by city.', function (assert) {
 });
 
 /*
+
 test('visiting /', function(assert) {
   visit('/');
-
   andThen(function() {
     assert.equal(currentURL(), '/');
   });
-
-  
 });
-*/
 
+*/

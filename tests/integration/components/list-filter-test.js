@@ -8,6 +8,7 @@ moduleForComponent('list-filter', 'Integration | Component | filter listing', {
 });
 
 const ITEMS = [{city: 'San Francisco'}, {city: 'Portland'}, {city: 'Seattle'}];
+
 const FILTERED_ITEMS = [{city: 'San Francisco'}];
 
 test('should initially load all listings', function (assert) {
